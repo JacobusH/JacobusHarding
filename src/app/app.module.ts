@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { VisualizerComponent } from './visualizer/visualizer.component';
+import { VComponentBaseComponent } from './vcomponent-base/vcomponent-base.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VisualizerComponent,
+    VComponentBaseComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +19,11 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   providers: [],
+  entryComponents: [
+    AppComponent
+  , VisualizerComponent
+  , VComponentBaseComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
