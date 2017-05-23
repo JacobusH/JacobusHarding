@@ -1,0 +1,15 @@
+.visualizer
+{
+    position:relative;
+    width:200px;
+    height:200px;
+    border:1px solid black;
+}
+
+.visualizer-adder
+{
+    position:absolute;
+    right: -10px;
+    top: -10px;
+    background: #fff;
+}

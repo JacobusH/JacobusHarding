@@ -1,1 +1,15 @@
-<div #parent></div>
+<div class="visualizer" 
+    (mouseenter)='OnMouseenter()' 
+    (mouseleave)='OnMouseleave()'
+    (click)='OnClick()'
+    [style.width.%]='vWidth'
+    [style.height.%]='vHeight'
+    #visualizer
+>
+    <div id="vAdder" class="visualizer-adder" *ngIf='enterShow'>
+        <i class="material-icons" (click)="AddBaseComponent($event)">add_circle_outline</i>
+    </div>
+    <div class="visualizer-container" #parent>
+
+    </div>
+</div>

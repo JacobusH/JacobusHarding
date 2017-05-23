@@ -1,0 +1,17 @@
+h1 
+{
+    text-align: center;
+}
+
+.visualizer-super-container
+{
+    position:relative;
+    height:100%;
+}
+
+.visualizer-adder
+{
+    position:absolute;
+    top:-50px;
+    right:30px;
+}

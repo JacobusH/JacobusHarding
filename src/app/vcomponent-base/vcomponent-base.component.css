@@ -1,0 +1,10 @@
+.v-component-base-container
+{
+    display:inline-block;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding:5px;
+    width: 20%;
+    resize: both;
+    overflow: auto;
+}

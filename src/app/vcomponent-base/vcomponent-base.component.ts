@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularDraggableDirective } from '../directives/draggable.directive';
 
 @Component({
   selector: 'app-vcomponent-base',
